@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Countries of the world</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+  <img src="europe.svg" alt="European map" class="logo">
+  <h1 class="title">European countries</h1>
+
+  <nav class="filters">
+    <ul class="filters_list">
+      <li>
+        <a href="all.html" class="selected" data-filter=".card">All</a>
+      </li>
+      <li>
+        <a href="north.html" data-filter=".nort">North</a>
+      </li>
+      <li>
+        <a href="east.html" data-filter=".east">East</a>
+      </li>
+      <li>
+        <a href="south.html" data-filter=".sout">South</a>
+      </li>
+      <li>
+        <a href="west.html" data-filter=".west">West</a>
+      </li>
+    </ul>
+  </nav>
+
+  <section id="root"></section>
+
+  <script src="scripts.js"></script>
+</body>
+
+</html>
